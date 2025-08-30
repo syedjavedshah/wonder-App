@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:wonder_app/wonder.dart';
-import 'package:wonder_app/wonder_detail.dart';
+import 'package:wonder_app/models/wonder.dart';
+import 'package:wonder_app/screens/wonder_detail.dart';
 
 class WonderCard extends StatelessWidget {
   const WonderCard({super.key, required this.wonder});
@@ -11,7 +11,7 @@ final Wonder wonder;
       onTap: (){
         Navigator.push(context,
         MaterialPageRoute(builder: (_)
-        =>wonderScreen()));
+        =>wonderScreen(wonder: wonder,)));
       },
       child: Container(
           height: 230,

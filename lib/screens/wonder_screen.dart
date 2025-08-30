@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:wonder_app/wonder.dart';
-import 'package:wonder_app/wonder_card.dart';
+import 'package:wonder_app/models/wonder.dart';
+import 'package:wonder_app/widgets/wonder_card.dart';
 class WonderScreen extends StatefulWidget {
   const WonderScreen({super.key});
 

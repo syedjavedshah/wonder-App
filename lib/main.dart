@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wonder_app/welcome_screen.dart';
+import 'package:wonder_app/screens/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());

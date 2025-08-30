@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wonder_app/wonder_screen.dart';
+import 'package:wonder_app/screens/wonder_screen.dart';
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
